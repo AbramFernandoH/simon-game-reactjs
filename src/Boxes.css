@@ -1,0 +1,10 @@
+.Boxes{
+  width: 150px;
+  height: 150px;
+  border: 10px solid black;
+  border-radius: 10%;
+}
+
+.red:hover, .blue:hover, .yellow:hover, .green:hover{
+  cursor: pointer;
+}

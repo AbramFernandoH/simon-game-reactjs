@@ -1,0 +1,57 @@
+.SimonGame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sub-title{
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.start-game{
+  border: none;
+  background-color: tomato;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  padding: 3% 6%;
+  margin-bottom: 1.5rem;
+  transition: all .3s;
+}
+
+.start-game:hover{
+  cursor: pointer;
+  background-color: white;
+  color: tomato;
+}
+
+.the-boxes{
+  height: 365px;
+  width: 365px;
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template: repeat(2, auto) / repeat(2, auto);
+  grid-template-areas: 
+  'r g'
+  'b y';
+}
+
+.red{
+  grid-area: r;
+}
+
+.green{
+  grid-area: g;
+}
+
+.blue{
+  grid-area: b;
+}
+
+.yellow{
+  grid-area: y;
+}
