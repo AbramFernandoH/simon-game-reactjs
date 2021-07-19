@@ -5,6 +5,59 @@
   border-radius: 10%;
 }
 
+.red{
+  background-color: red;
+  transition: all .3s;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
 .red:hover, .blue:hover, .yellow:hover, .green:hover{
   cursor: pointer;
+}
+
+.red:hover{
+  background-color: rgb(255, 50, 50);
+  border-color: rgb(55, 55, 55);
+}
+
+.red:disabled{
+  cursor: default;
+}
+
+.blue:hover{
+  background-color: rgb(50, 50, 255);
+  border-color: rgb(55, 55, 55);
+}
+
+.blue:disabled{
+  cursor: default;
+}
+
+.yellow:hover{
+  background-color: rgb(255, 255, 50);
+  border-color: rgb(55, 55, 55);
+}
+
+.yellow:disabled{
+  cursor: default;
+}
+
+.green:hover{
+  background-color: rgb(50, 130, 50);
+  border-color: rgb(55, 55, 55);
+}
+
+.green:disabled{
+  cursor: default;
 }
