@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/simon-game-reactjs/static/css/main.f7d9fb2f.chunk.css",
+    "main.js": "/simon-game-reactjs/static/js/main.120e2dec.chunk.js",
+    "main.js.map": "/simon-game-reactjs/static/js/main.120e2dec.chunk.js.map",
+    "runtime-main.js": "/simon-game-reactjs/static/js/runtime-main.92fb74d2.js",
+    "runtime-main.js.map": "/simon-game-reactjs/static/js/runtime-main.92fb74d2.js.map",
+    "static/js/2.90cb92dd.chunk.js": "/simon-game-reactjs/static/js/2.90cb92dd.chunk.js",
+    "static/js/2.90cb92dd.chunk.js.map": "/simon-game-reactjs/static/js/2.90cb92dd.chunk.js.map",
+    "index.html": "/simon-game-reactjs/index.html",
+    "static/css/main.f7d9fb2f.chunk.css.map": "/simon-game-reactjs/static/css/main.f7d9fb2f.chunk.css.map",
+    "static/js/2.90cb92dd.chunk.js.LICENSE.txt": "/simon-game-reactjs/static/js/2.90cb92dd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92fb74d2.js",
+    "static/js/2.90cb92dd.chunk.js",
+    "static/css/main.f7d9fb2f.chunk.css",
+    "static/js/main.120e2dec.chunk.js"
+  ]
+}
